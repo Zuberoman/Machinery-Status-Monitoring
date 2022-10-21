@@ -1,4 +1,4 @@
-function O99_NarzedziaPomiarowe() {
+function NarzedziaPomiarowe() {
 
   var ss = SpreadsheetApp.openById('******').getSheetByName("O99 - NARZĘDZIA POMIAROWE");
   //otwarcie odpowiedniej karty w pliku  Status Maszyn 
@@ -53,14 +53,13 @@ function O99_NarzedziaPomiarowe() {
   message = message + '\n\nLink do raportu:\nhttps://docs.google.com/spreadsheets/d/*******/edit#gid=*******';
 
   MailApp.sendEmail('marcin.z@x.com', subject, message);
-  //MailApp.sendEmail('jolanta@x.com', subject, message);
   MailApp.sendEmail('f@x.com', subject, message);
   MailApp.sendEmail('sabina@x.com', subject, message);
   MailApp.sendEmail('oliwi@x.com', subject, message);
 
 }
 
-function O99_MaszynyIStanowiska() {
+function MaszynyIStanowiska() {
   var ss = SpreadsheetApp.openById('*****').getSheetByName("O99 - MASZYNY I STANOWISKA");
   //otwarcie odpowiedniej karty w pliku Status Maszyn 
   var loopmax = 300;
