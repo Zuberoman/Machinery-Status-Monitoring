@@ -1,6 +1,6 @@
 # Machinery-Status-Monitoring
 
-Machinery Maintenence Deadline monitoring by Google Apps Script. Script checks the deadlines in google sheets:
+Machinery Maintenence Deadline monitoring by Google Apps Script:
 
-- if current date is 1 month before or in current month it sends automatically reminding mail to staff (function NarzedziaPomiarowe() for measurements devices and function MaszynyIStanowiska () for machines)
+- checking the deadlines in google sheets and  sending automatically reminding mails to staff (function NarzedziaPomiarowe() for measurements devices and function MaszynyIStanowiska () for machines)
 
